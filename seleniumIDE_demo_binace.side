@@ -1,0 +1,128 @@
+{
+  "id": "215431d3-dd9f-4ec6-8221-c758d192011a",
+  "version": "2.0",
+  "name": "demo_binace",
+  "url": "https://www.binance.com/en/trade/ALGO_BTC",
+  "tests": [{
+    "id": "b3c26525-6f4e-4d45-88d1-38e390e69e1f",
+    "name": "aaa",
+    "commands": [{
+      "id": "970dfb75-7944-4698-94fb-75feb4b11e1c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.binance.com/en/trade/ALGO_BTC",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7e0c056-fd0f-4df7-b223-8d6fef87c3ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1321x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86246d2d-1dcc-4211-b2c5-e2f242b4a3fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=SearchInput-input-search",
+      "targets": [
+        ["id=SearchInput-input-search", "id"],
+        ["css=#SearchInput-input-search", "css:finder"],
+        ["xpath=//input[@id='SearchInput-input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36fec4fb-f804-4e6c-bc7f-f13185b1af7d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-1ipci53-0 .ReactVirtualized__Table__rowColumn:nth-child(2)",
+      "targets": [
+        ["css=.sc-1ipci53-0 .ReactVirtualized__Table__rowColumn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/div/div[2]/div/div[2]/div/div/div[3]/div/div/div/div/div[2]/div/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b90ddbe2-548b-4cbd-973c-3f92aec368f5",
+      "comment": "",
+      "command": "type",
+      "target": "id=SearchInput-input-search",
+      "targets": [
+        ["id=SearchInput-input-search", "id"],
+        ["css=#SearchInput-input-search", "css:finder"],
+        ["xpath=//input[@id='SearchInput-input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/div/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "NAV"
+    }, {
+      "id": "4ac45885-28d3-4f80-bd78-33202a3a6574",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1ipci53-0 .ReactVirtualized__Table__rowColumn:nth-child(2)",
+      "targets": [
+        ["css=.sc-1ipci53-0 .ReactVirtualized__Table__rowColumn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/div/div[2]/div/div[2]/div/div/div[3]/div[2]/div/div/div/div[2]/div/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ee6b428-418e-4bc0-b216-add8161e4671",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd92a61f-602c-4a0f-9374-126ffdf39a85",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-1ipci53-0 .ReactVirtualized__Table__rowColumn:nth-child(2)",
+      "targets": [
+        ["css=.sc-1ipci53-0 .ReactVirtualized__Table__rowColumn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/div/div[2]/div/div[2]/div/div/div[3]/div[2]/div/div/div/div[2]/div/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b2f5f11-e1a5-42b2-8ea7-2c42f61bb315",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d9bdb91-4f33-43bb-9daf-fee62fd51d02",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,291)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb001058-abe3-464b-8e9b-50d65be4318b",
+      "comment": "",
+      "command": "click",
+      "target": "id=OrderForm-input-Buy-75",
+      "targets": [
+        ["id=OrderForm-input-Buy-75", "id"],
+        ["css=#OrderForm-input-Buy-75", "css:finder"],
+        ["xpath=//input[@id='OrderForm-input-Buy-75']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/main/div/div/div[2]/div/div/div[2]/div[2]/div[2]/div[2]/div/form/div[4]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "80308513-89e8-48a9-ab68-7d9fbbe79b01",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b3c26525-6f4e-4d45-88d1-38e390e69e1f"]
+  }],
+  "urls": ["https://www.binance.com/", "https://www.binance.com/en/trade/ALGO_BTC"],
+  "plugins": []
+}
